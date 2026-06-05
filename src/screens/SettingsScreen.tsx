@@ -4,14 +4,14 @@ import { Alert, Pressable, StyleSheet, Text, View } from "react-native";
 import { Screen } from "../components/Screen";
 import { Section } from "../components/Section";
 import { SettingRow } from "../components/SettingRow";
-import { useHunterRadar } from "../context/HunterRadarContext";
+import { useDownwind } from "../context/DownwindContext";
 import { colors } from "../theme/colors";
 import type { UnitSystem } from "../types";
 
 const unitOptions: UnitSystem[] = ["Imperial", "Metric"];
 
 export function SettingsScreen() {
-  const { clearLocalData, settings, updateSettings } = useHunterRadar();
+  const { clearLocalData, settings, updateSettings } = useDownwind();
 
   function handleClearData() {
     Alert.alert(
