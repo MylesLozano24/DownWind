@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Hunter Radar",
+    "slug": "hunter-radar",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "hunterradar",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hunterradar.prototype"
+    },
+    "android": {
+      "package": "com.hunterradar.prototype"
+    },
+    "extra": {
+      "integrations": "simulated-only"
+    }
+  }
+}
