@@ -42,7 +42,7 @@ export function HunterCard({ hunter, units }: HunterCardProps) {
         </View>
         <View style={styles.metaRow}>
           <Text style={styles.metaText}>
-            {formatDistance(hunter.distanceMiles, units)} · {hunter.bearing}
+            {formatDistance(hunter.distanceMiles, units)} - {hunter.bearing}
           </Text>
           <Text style={styles.metaText}>{hunter.lastSeenMinutes}m ago</Text>
         </View>
