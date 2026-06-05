@@ -5,12 +5,12 @@ import { HunterCard } from "../components/HunterCard";
 import { Screen } from "../components/Screen";
 import { Section } from "../components/Section";
 import { StatusPill } from "../components/StatusPill";
-import { useHunterRadar } from "../context/HunterRadarContext";
+import { useDownwind } from "../context/DownwindContext";
 import { groupCheckIns, simulatedHunters } from "../data/simulatedHunters";
 import { colors } from "../theme/colors";
 
 export function GroupScreen() {
-  const { settings, userStatus } = useHunterRadar();
+  const { settings, userStatus } = useDownwind();
   const hunters = simulatedHunters.map((hunter) =>
     hunter.isCurrentUser ? { ...hunter, status: userStatus } : hunter
   );
