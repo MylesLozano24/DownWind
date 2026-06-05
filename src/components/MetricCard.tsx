@@ -37,6 +37,8 @@ const styles = StyleSheet.create({
     backgroundColor: colors.panelAlt,
     borderColor: colors.border,
     borderRadius: 8,
+    borderTopColor: colors.amber,
+    borderTopWidth: 3,
     borderWidth: 1,
     flexDirection: "row",
     gap: 10,
