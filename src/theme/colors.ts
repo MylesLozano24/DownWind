@@ -1,27 +1,27 @@
 export const colors = {
-  background: "#F5F7F4",
-  panel: "#FFFFFF",
-  panelAlt: "#EEF3EE",
-  text: "#13201C",
-  muted: "#64736F",
-  border: "#D8E0DC",
-  forest: "#214D3A",
-  forestLight: "#DDEBE3",
-  amber: "#D88621",
-  amberLight: "#F6E6C9",
-  blue: "#2F6F9F",
-  blueLight: "#DDECF6",
-  danger: "#C93F38",
-  dangerLight: "#F8DAD7",
-  graphite: "#2E3432",
-  white: "#FFFFFF"
+  background: "#0C1D18",
+  panel: "#173126",
+  panelAlt: "#1D3A2D",
+  text: "#F2F4EC",
+  muted: "#B7C1B7",
+  border: "#2E4A3B",
+  forest: "#FF6A00",
+  forestLight: "#263A2C",
+  amber: "#FF6A00",
+  amberLight: "#3A2B1D",
+  blue: "#DDE3DC",
+  blueLight: "#243930",
+  danger: "#FF4B2E",
+  dangerLight: "#3A241F",
+  graphite: "#DDE3DC",
+  white: "#F5F6EF"
 } as const;
 
 export const shadows = {
   card: {
-    shadowColor: "#10201A",
+    shadowColor: "#020806",
     shadowOffset: { width: 0, height: 8 },
-    shadowOpacity: 0.08,
+    shadowOpacity: 0.24,
     shadowRadius: 18,
     elevation: 3
   }
