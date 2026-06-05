@@ -1,14 +1,14 @@
 import { StatusBar } from "react-native";
 
-import { HunterRadarProvider } from "./src/context/HunterRadarContext";
+import { DownwindProvider } from "./src/context/DownwindContext";
 import { BottomTabNavigator } from "./src/navigation/BottomTabNavigator";
 import { colors } from "./src/theme/colors";
 
 export default function App() {
   return (
-    <HunterRadarProvider>
+    <DownwindProvider>
       <StatusBar barStyle="dark-content" backgroundColor={colors.background} />
       <BottomTabNavigator />
-    </HunterRadarProvider>
+    </DownwindProvider>
   );
 }
