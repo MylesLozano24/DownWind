@@ -15,7 +15,8 @@ export function Screen({ title, subtitle, children }: ScreenProps) {
       showsVerticalScrollIndicator={false}
     >
       <View style={styles.header}>
-        <Text style={styles.appName}>Hunter Radar</Text>
+        <Text style={styles.appName}>Downwind</Text>
+        <Text style={styles.tagline}>Stay connected where service ends.</Text>
         <Text style={styles.title}>{title}</Text>
         <Text style={styles.subtitle}>{subtitle}</Text>
       </View>
@@ -45,6 +46,13 @@ const styles = StyleSheet.create({
     fontSize: 15,
     lineHeight: 22,
     marginTop: 6
+  },
+  tagline: {
+    color: colors.forest,
+    fontSize: 14,
+    fontWeight: "700",
+    lineHeight: 20,
+    marginTop: 3
   },
   title: {
     color: colors.text,
