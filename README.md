@@ -44,6 +44,29 @@ Then scan the QR code with the Expo Go app on your iPhone. If your phone cannot 
 npx expo start --tunnel
 ```
 
+## TestFlight beta on iPhone
+
+Expo Go is the fastest way to test this simulated MVP. For a real beta app install through TestFlight, you need a paid Apple Developer account and an Expo account.
+
+The simplest guided path is:
+
+```bash
+npx testflight
+```
+
+That command walks through EAS project setup, iOS signing, building, and submitting to TestFlight. After Apple finishes processing the build, open App Store Connect, go to TestFlight, and add internal or external testers.
+
+The manual EAS path is:
+
+```bash
+npm install -g eas-cli
+eas login
+eas build --platform ios
+eas submit --platform ios
+```
+
+When real Bluetooth or other native hardware integrations are added later, use a development build or TestFlight build instead of Expo Go.
+
 ## Scripts
 
 ```bash
