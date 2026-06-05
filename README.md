@@ -1,6 +1,8 @@
-# Hunter Radar
+# Downwind
 
-Hunter Radar is an Expo React Native TypeScript MVP prototype for iPhone beta testing in Expo Go. It uses simulated-only hunter, group, map, status, and device data.
+Stay connected where service ends.
+
+Downwind is an Expo React Native TypeScript MVP prototype for iPhone beta testing in Expo Go. It uses simulated-only hunter, group, map, status, and device data.
 
 ## What is included
 
