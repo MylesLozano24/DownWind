@@ -8,7 +8,7 @@ import { Section } from "../components/Section";
 import { SosConfirmationModal } from "../components/SosConfirmationModal";
 import { StatusActionButton } from "../components/StatusActionButton";
 import { StatusPill } from "../components/StatusPill";
-import { useHunterRadar } from "../context/HunterRadarContext";
+import { useDownwind } from "../context/DownwindContext";
 import { colors } from "../theme/colors";
 import type { HunterStatus } from "../types";
 
@@ -24,7 +24,7 @@ const statusOptions: { status: HunterStatus; iconName: IconName }[] = [
 ];
 
 export function StatusScreen() {
-  const { isHydrated, setUserStatus, userStatus } = useHunterRadar();
+  const { isHydrated, setUserStatus, userStatus } = useDownwind();
   const [isSosVisible, setIsSosVisible] = useState(false);
 
   async function handleStatusPress(status: HunterStatus) {
