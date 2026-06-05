@@ -47,6 +47,6 @@ export async function saveSettings(settings: AppSettings) {
   await AsyncStorage.setItem(STORAGE_KEYS.settings, JSON.stringify(settings));
 }
 
-export async function clearHunterRadarStorage() {
+export async function clearDownwindStorage() {
   await AsyncStorage.multiRemove([STORAGE_KEYS.userStatus, STORAGE_KEYS.settings]);
 }
