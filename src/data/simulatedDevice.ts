@@ -1,6 +1,6 @@
 import type { DeviceMetric } from "../types";
 
-export const connectedDeviceName = "Hunter Radar ESP32 A2";
+export const connectedDeviceName = "Downwind ESP32 A2";
 
 export const simulatedDeviceMetrics: DeviceMetric[] = [
   {
