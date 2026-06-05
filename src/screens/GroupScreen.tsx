@@ -69,6 +69,8 @@ const styles = StyleSheet.create({
     backgroundColor: colors.panel,
     borderColor: colors.border,
     borderRadius: 8,
+    borderTopColor: colors.amber,
+    borderTopWidth: 3,
     borderWidth: 1,
     marginBottom: 10,
     padding: 14
@@ -115,6 +117,8 @@ const styles = StyleSheet.create({
     backgroundColor: colors.panel,
     borderColor: colors.border,
     borderRadius: 8,
+    borderTopColor: colors.amber,
+    borderTopWidth: 3,
     borderWidth: 1,
     flex: 1,
     minHeight: 104,
