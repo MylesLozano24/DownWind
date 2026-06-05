@@ -1,18 +1,18 @@
 {
   "expo": {
-    "name": "Hunter Radar",
-    "slug": "hunter-radar",
+    "name": "Downwind",
+    "slug": "downwind",
     "version": "0.1.0",
     "orientation": "portrait",
-    "scheme": "hunterradar",
+    "scheme": "downwind",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.hunterradar.prototype"
+      "bundleIdentifier": "com.downwind.prototype"
     },
     "android": {
-      "package": "com.hunterradar.prototype"
+      "package": "com.downwind.prototype"
     },
     "extra": {
       "integrations": "simulated-only"
