@@ -7,7 +7,7 @@ import { colors } from "./src/theme/colors";
 export default function App() {
   return (
     <DownwindProvider>
-      <StatusBar barStyle="dark-content" backgroundColor={colors.background} />
+      <StatusBar barStyle="light-content" backgroundColor={colors.background} />
       <BottomTabNavigator />
     </DownwindProvider>
   );
