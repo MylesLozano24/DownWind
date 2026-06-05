@@ -1,4 +1,4 @@
 export const STORAGE_KEYS = {
-  userStatus: "@hunter-radar/user-status",
-  settings: "@hunter-radar/settings"
+  userStatus: "@downwind/user-status",
+  settings: "@downwind/settings"
 } as const;
