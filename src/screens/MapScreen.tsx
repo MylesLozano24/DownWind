@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
     top: "62%"
   },
   horizontalLine: {
-    backgroundColor: "rgba(33, 77, 58, 0.13)",
+    backgroundColor: "rgba(245, 246, 239, 0.08)",
     height: 1,
     left: 0,
     position: "absolute",
@@ -165,7 +165,7 @@ const styles = StyleSheet.create({
     width: "72%"
   },
   verticalLine: {
-    backgroundColor: "rgba(33, 77, 58, 0.13)",
+    backgroundColor: "rgba(245, 246, 239, 0.08)",
     bottom: 0,
     position: "absolute",
     top: 0,
