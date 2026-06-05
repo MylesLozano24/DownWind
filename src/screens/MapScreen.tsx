@@ -5,13 +5,13 @@ import { HunterCard } from "../components/HunterCard";
 import { Screen } from "../components/Screen";
 import { Section } from "../components/Section";
 import { simulatedHunters } from "../data/simulatedHunters";
-import { useHunterRadar } from "../context/HunterRadarContext";
+import { useDownwind } from "../context/DownwindContext";
 import { colors } from "../theme/colors";
 
 const mapLines = [20, 40, 60, 80];
 
 export function MapScreen() {
-  const { settings, userStatus } = useHunterRadar();
+  const { settings, userStatus } = useDownwind();
 
   const hunters = simulatedHunters.map((hunter) =>
     hunter.isCurrentUser ? { ...hunter, status: userStatus } : hunter
